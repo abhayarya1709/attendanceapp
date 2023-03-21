@@ -1,0 +1,472 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/abhay/.gradle/caches/transforms-3/611c62c1c39965d8c274a53101e3df8e/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/abhay/.gradle/caches/transforms-3/611c62c1c39965d8c274a53101e3df8e/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abhay/.gradle/caches/transforms-3/521541b045535fc4988d620434d5d419/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abhay/.gradle/caches/transforms-3/521541b045535fc4988d620434d5d419/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/f4cb4d82a43bf3e1bede644553d3db97/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/f4cb4d82a43bf3e1bede644553d3db97/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/0e73880ca2af5ea0f6f7863812a8adae/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/0e73880ca2af5ea0f6f7863812a8adae/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/abhay/.gradle/caches/transforms-3/94b787a4366845c6957e959f4d5ca324/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/abhay/.gradle/caches/transforms-3/94b787a4366845c6957e959f4d5ca324/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/abhay/.gradle/caches/transforms-3/5f99f017344e04386536b5f51eb14bb6/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/abhay/.gradle/caches/transforms-3/5f99f017344e04386536b5f51eb14bb6/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/e584c9fff26b85bb877c227f363494b6/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/e584c9fff26b85bb877c227f363494b6/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/abhay/.gradle/caches/transforms-3/b291fe5b5ad83d10eda90cb7d550e01d/transformed/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/abhay/.gradle/caches/transforms-3/b291fe5b5ad83d10eda90cb7d550e01d/transformed/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7d4d7ea269cc7e1d7b0b0f9fa76a6986/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7d4d7ea269cc7e1d7b0b0f9fa76a6986/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/abhay/.gradle/caches/transforms-3/22fd7242f821e8127f1393b2005c3a63/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/abhay/.gradle/caches/transforms-3/22fd7242f821e8127f1393b2005c3a63/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/3efb7b4ce998df955717952179ea7f32/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/3efb7b4ce998df955717952179ea7f32/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/8546f9a34cc92dfcb41a6016391f0d38/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/8546f9a34cc92dfcb41a6016391f0d38/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.8.0] /Users/abhay/.gradle/caches/transforms-3/107bd76ca403f83546437c18932914ca/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/abhay/.gradle/caches/transforms-3/107bd76ca403f83546437c18932914ca/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abhay/.gradle/caches/transforms-3/57923e70db6978e75919a27f003c4cb4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abhay/.gradle/caches/transforms-3/57923e70db6978e75919a27f003c4cb4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/abhay/.gradle/caches/transforms-3/107bd76ca403f83546437c18932914ca/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:largeHeap
+		ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-33
+	android:theme
+		ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-59
+	android:name
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:geocoding_android] /Users/abhay/IITB/Apps/attendanceapp/build/geocoding_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_keyboard_visibility] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_keyboard_visibility/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/abhay/.gradle/caches/transforms-3/611c62c1c39965d8c274a53101e3df8e/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abhay/.gradle/caches/transforms-3/521541b045535fc4988d620434d5d419/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/abhay/.gradle/caches/transforms-3/fed6dd8d7701ad7e84c62445438be5d4/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/abhay/.gradle/caches/transforms-3/0f77ced11d5dbaf974d16b3612cc8f49/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/abhay/.gradle/caches/transforms-3/cf996d53a07d89362105e620c6898e8a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/f4cb4d82a43bf3e1bede644553d3db97/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/0e73880ca2af5ea0f6f7863812a8adae/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/abhay/.gradle/caches/transforms-3/94b787a4366845c6957e959f4d5ca324/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/abhay/.gradle/caches/transforms-3/5f99f017344e04386536b5f51eb14bb6/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/e584c9fff26b85bb877c227f363494b6/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/abhay/.gradle/caches/transforms-3/b291fe5b5ad83d10eda90cb7d550e01d/transformed/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/abhay/.gradle/caches/transforms-3/85581ee5b343da69028c79fb0ce11226/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7d4d7ea269cc7e1d7b0b0f9fa76a6986/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/abhay/.gradle/caches/transforms-3/1879246bf5973e20c117dee0b46bc4d2/transformed/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/abhay/.gradle/caches/transforms-3/22fd7242f821e8127f1393b2005c3a63/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/3efb7b4ce998df955717952179ea7f32/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/8546f9a34cc92dfcb41a6016391f0d38/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/abhay/.gradle/caches/transforms-3/6f9e16dbd82def365411bdf6e05fddce/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] /Users/abhay/.gradle/caches/transforms-3/f9616299e39e0b24e33233730f920b76/transformed/jetified-activity-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/abhay/.gradle/caches/transforms-3/47ab1addca7219623392fd481dce35e2/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/abhay/.gradle/caches/transforms-3/823286d037c42dca156a1cd469df7d48/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/abhay/.gradle/caches/transforms-3/f027360379ea518400bb5ebeb69d2043/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/abhay/.gradle/caches/transforms-3/5a3bb2b690621b92bc7700b8e840ad4d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/abhay/.gradle/caches/transforms-3/54fb44fabd20307307c56605ba8d4bc7/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/abhay/.gradle/caches/transforms-3/13ffddada80922b3272cd99609b1e444/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/3328c2ae52ffd481a160bee6bd237439/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/abhay/.gradle/caches/transforms-3/329f05ea0abc54b7efe8f1759b5c52ae/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/abhay/.gradle/caches/transforms-3/4b23172029ed224b2268739f0bfeaa19/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/d5fba93d79311b58913c96fbc5a942fc/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/abhay/.gradle/caches/transforms-3/009914480b162a33f10ee1d7d4ea507c/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/abhay/.gradle/caches/transforms-3/ba4011dfd56edeaaa9440b6985aaa7cd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/abhay/.gradle/caches/transforms-3/e5bcde50505818d98f8b70592a87952e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/abhay/.gradle/caches/transforms-3/e923497f6fbc7eefb44db4e5155469da/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/abhay/.gradle/caches/transforms-3/714f682bd48c58ffad55c02075667b55/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/abhay/.gradle/caches/transforms-3/989f9ea9da3136910bbfce2e989711dd/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/7eb8dd4456e0e5fa5308b683cfbe5001/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/abhay/.gradle/caches/transforms-3/8b3697625d66092b0016ec9df1a96ae2/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/abhay/.gradle/caches/transforms-3/07d5cc6ec5e3cee9282a9643dc630e38/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/5dd51dd9ba2231b009f01ea218f66411/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/abhay/.gradle/caches/transforms-3/c0edae8cf56d2481aca8754e00406301/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /Users/abhay/.gradle/caches/transforms-3/107bd76ca403f83546437c18932914ca/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/abhay/.gradle/caches/transforms-3/55abe762e16edfa3beec613de2b2d31f/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/abhay/.gradle/caches/transforms-3/a43878d1443338e1f3d1f3cf121cbc66/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/abhay/.gradle/caches/transforms-3/62b4a70c0dbbe89181f72de4e2331599/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/abhay/.gradle/caches/transforms-3/116b6869ec50fe92e804c623628f61e1/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abhay/.gradle/caches/transforms-3/57923e70db6978e75919a27f003c4cb4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/abhay/.gradle/caches/transforms-3/1a618b51d61c5807e3e5aba79c003cda/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/abhay/.gradle/caches/transforms-3/fcc7f5354a24c711440cee65ec7402a1/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/abhay/.gradle/caches/transforms-3/ef7b00c69c69a025bb9a93630c233e9a/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/abhay/.gradle/caches/transforms-3/22dca7b0bd673bec335742ba527efd43/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/abhay/.gradle/caches/transforms-3/4f56f0e83e148153d1be6cd871bdacf4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/abhay/.gradle/caches/transforms-3/ba9cd077d4b4ac45119d3b07b848754a/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/abhay/.gradle/caches/transforms-3/f90cd89540923267612175672f1ae4bf/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/abhay/.gradle/caches/transforms-3/4aa06895fd5f438e2cb20dd569b279f0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/abhay/.gradle/caches/transforms-3/4caf31d78bfc0c84db0e4650e7f91d72/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abhay/.gradle/caches/transforms-3/b82f8f6796b0bc7f5d46106aae6852fc/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/abhay/.gradle/caches/transforms-3/16c424ab08aded7aa90b8f2443cb966c/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/abhay/.gradle/caches/transforms-3/588377fb9e5f60cfd9a974955d37a124/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/abhay/.gradle/caches/transforms-3/860090144eb5f7b65d9bdd29e26b422f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:2:5-37
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geocoding_android] /Users/abhay/IITB/Apps/attendanceapp/build/geocoding_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geocoding_android] /Users/abhay/IITB/Apps/attendanceapp/build/geocoding_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_keyboard_visibility/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_keyboard_visibility/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/abhay/.gradle/caches/transforms-3/611c62c1c39965d8c274a53101e3df8e/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/abhay/.gradle/caches/transforms-3/611c62c1c39965d8c274a53101e3df8e/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abhay/.gradle/caches/transforms-3/521541b045535fc4988d620434d5d419/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abhay/.gradle/caches/transforms-3/521541b045535fc4988d620434d5d419/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/abhay/.gradle/caches/transforms-3/fed6dd8d7701ad7e84c62445438be5d4/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/abhay/.gradle/caches/transforms-3/fed6dd8d7701ad7e84c62445438be5d4/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/abhay/.gradle/caches/transforms-3/0f77ced11d5dbaf974d16b3612cc8f49/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/abhay/.gradle/caches/transforms-3/0f77ced11d5dbaf974d16b3612cc8f49/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/abhay/.gradle/caches/transforms-3/cf996d53a07d89362105e620c6898e8a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/abhay/.gradle/caches/transforms-3/cf996d53a07d89362105e620c6898e8a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/f4cb4d82a43bf3e1bede644553d3db97/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/f4cb4d82a43bf3e1bede644553d3db97/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/0e73880ca2af5ea0f6f7863812a8adae/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/0e73880ca2af5ea0f6f7863812a8adae/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/abhay/.gradle/caches/transforms-3/94b787a4366845c6957e959f4d5ca324/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/abhay/.gradle/caches/transforms-3/94b787a4366845c6957e959f4d5ca324/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/abhay/.gradle/caches/transforms-3/5f99f017344e04386536b5f51eb14bb6/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/abhay/.gradle/caches/transforms-3/5f99f017344e04386536b5f51eb14bb6/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/e584c9fff26b85bb877c227f363494b6/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/e584c9fff26b85bb877c227f363494b6/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/abhay/.gradle/caches/transforms-3/b291fe5b5ad83d10eda90cb7d550e01d/transformed/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/abhay/.gradle/caches/transforms-3/b291fe5b5ad83d10eda90cb7d550e01d/transformed/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/abhay/.gradle/caches/transforms-3/85581ee5b343da69028c79fb0ce11226/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/abhay/.gradle/caches/transforms-3/85581ee5b343da69028c79fb0ce11226/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7d4d7ea269cc7e1d7b0b0f9fa76a6986/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7d4d7ea269cc7e1d7b0b0f9fa76a6986/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/abhay/.gradle/caches/transforms-3/1879246bf5973e20c117dee0b46bc4d2/transformed/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/abhay/.gradle/caches/transforms-3/1879246bf5973e20c117dee0b46bc4d2/transformed/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/abhay/.gradle/caches/transforms-3/22fd7242f821e8127f1393b2005c3a63/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/abhay/.gradle/caches/transforms-3/22fd7242f821e8127f1393b2005c3a63/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/3efb7b4ce998df955717952179ea7f32/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/3efb7b4ce998df955717952179ea7f32/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/8546f9a34cc92dfcb41a6016391f0d38/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/8546f9a34cc92dfcb41a6016391f0d38/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/abhay/.gradle/caches/transforms-3/6f9e16dbd82def365411bdf6e05fddce/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/abhay/.gradle/caches/transforms-3/6f9e16dbd82def365411bdf6e05fddce/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] /Users/abhay/.gradle/caches/transforms-3/f9616299e39e0b24e33233730f920b76/transformed/jetified-activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] /Users/abhay/.gradle/caches/transforms-3/f9616299e39e0b24e33233730f920b76/transformed/jetified-activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/abhay/.gradle/caches/transforms-3/47ab1addca7219623392fd481dce35e2/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/abhay/.gradle/caches/transforms-3/47ab1addca7219623392fd481dce35e2/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/abhay/.gradle/caches/transforms-3/823286d037c42dca156a1cd469df7d48/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/abhay/.gradle/caches/transforms-3/823286d037c42dca156a1cd469df7d48/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/abhay/.gradle/caches/transforms-3/f027360379ea518400bb5ebeb69d2043/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/abhay/.gradle/caches/transforms-3/f027360379ea518400bb5ebeb69d2043/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/abhay/.gradle/caches/transforms-3/5a3bb2b690621b92bc7700b8e840ad4d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/abhay/.gradle/caches/transforms-3/5a3bb2b690621b92bc7700b8e840ad4d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/abhay/.gradle/caches/transforms-3/54fb44fabd20307307c56605ba8d4bc7/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/abhay/.gradle/caches/transforms-3/54fb44fabd20307307c56605ba8d4bc7/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/abhay/.gradle/caches/transforms-3/13ffddada80922b3272cd99609b1e444/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/abhay/.gradle/caches/transforms-3/13ffddada80922b3272cd99609b1e444/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/3328c2ae52ffd481a160bee6bd237439/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/3328c2ae52ffd481a160bee6bd237439/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/abhay/.gradle/caches/transforms-3/329f05ea0abc54b7efe8f1759b5c52ae/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/abhay/.gradle/caches/transforms-3/329f05ea0abc54b7efe8f1759b5c52ae/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/abhay/.gradle/caches/transforms-3/4b23172029ed224b2268739f0bfeaa19/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/abhay/.gradle/caches/transforms-3/4b23172029ed224b2268739f0bfeaa19/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/d5fba93d79311b58913c96fbc5a942fc/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/d5fba93d79311b58913c96fbc5a942fc/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/abhay/.gradle/caches/transforms-3/009914480b162a33f10ee1d7d4ea507c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/abhay/.gradle/caches/transforms-3/009914480b162a33f10ee1d7d4ea507c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/abhay/.gradle/caches/transforms-3/ba4011dfd56edeaaa9440b6985aaa7cd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/abhay/.gradle/caches/transforms-3/ba4011dfd56edeaaa9440b6985aaa7cd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/abhay/.gradle/caches/transforms-3/e5bcde50505818d98f8b70592a87952e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/abhay/.gradle/caches/transforms-3/e5bcde50505818d98f8b70592a87952e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/abhay/.gradle/caches/transforms-3/e923497f6fbc7eefb44db4e5155469da/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/abhay/.gradle/caches/transforms-3/e923497f6fbc7eefb44db4e5155469da/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/abhay/.gradle/caches/transforms-3/714f682bd48c58ffad55c02075667b55/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/abhay/.gradle/caches/transforms-3/714f682bd48c58ffad55c02075667b55/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/abhay/.gradle/caches/transforms-3/989f9ea9da3136910bbfce2e989711dd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/abhay/.gradle/caches/transforms-3/989f9ea9da3136910bbfce2e989711dd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/7eb8dd4456e0e5fa5308b683cfbe5001/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/7eb8dd4456e0e5fa5308b683cfbe5001/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/abhay/.gradle/caches/transforms-3/8b3697625d66092b0016ec9df1a96ae2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/abhay/.gradle/caches/transforms-3/8b3697625d66092b0016ec9df1a96ae2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/abhay/.gradle/caches/transforms-3/07d5cc6ec5e3cee9282a9643dc630e38/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/abhay/.gradle/caches/transforms-3/07d5cc6ec5e3cee9282a9643dc630e38/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/5dd51dd9ba2231b009f01ea218f66411/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/abhay/.gradle/caches/transforms-3/5dd51dd9ba2231b009f01ea218f66411/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/abhay/.gradle/caches/transforms-3/c0edae8cf56d2481aca8754e00406301/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/abhay/.gradle/caches/transforms-3/c0edae8cf56d2481aca8754e00406301/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /Users/abhay/.gradle/caches/transforms-3/107bd76ca403f83546437c18932914ca/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/abhay/.gradle/caches/transforms-3/107bd76ca403f83546437c18932914ca/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/abhay/.gradle/caches/transforms-3/55abe762e16edfa3beec613de2b2d31f/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/abhay/.gradle/caches/transforms-3/55abe762e16edfa3beec613de2b2d31f/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/abhay/.gradle/caches/transforms-3/a43878d1443338e1f3d1f3cf121cbc66/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/abhay/.gradle/caches/transforms-3/a43878d1443338e1f3d1f3cf121cbc66/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/abhay/.gradle/caches/transforms-3/62b4a70c0dbbe89181f72de4e2331599/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/abhay/.gradle/caches/transforms-3/62b4a70c0dbbe89181f72de4e2331599/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/abhay/.gradle/caches/transforms-3/116b6869ec50fe92e804c623628f61e1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/abhay/.gradle/caches/transforms-3/116b6869ec50fe92e804c623628f61e1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abhay/.gradle/caches/transforms-3/57923e70db6978e75919a27f003c4cb4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abhay/.gradle/caches/transforms-3/57923e70db6978e75919a27f003c4cb4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/abhay/.gradle/caches/transforms-3/1a618b51d61c5807e3e5aba79c003cda/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/abhay/.gradle/caches/transforms-3/1a618b51d61c5807e3e5aba79c003cda/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/abhay/.gradle/caches/transforms-3/fcc7f5354a24c711440cee65ec7402a1/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/abhay/.gradle/caches/transforms-3/fcc7f5354a24c711440cee65ec7402a1/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/abhay/.gradle/caches/transforms-3/ef7b00c69c69a025bb9a93630c233e9a/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/abhay/.gradle/caches/transforms-3/ef7b00c69c69a025bb9a93630c233e9a/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/abhay/.gradle/caches/transforms-3/22dca7b0bd673bec335742ba527efd43/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/abhay/.gradle/caches/transforms-3/22dca7b0bd673bec335742ba527efd43/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/abhay/.gradle/caches/transforms-3/4f56f0e83e148153d1be6cd871bdacf4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/abhay/.gradle/caches/transforms-3/4f56f0e83e148153d1be6cd871bdacf4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/abhay/.gradle/caches/transforms-3/ba9cd077d4b4ac45119d3b07b848754a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/abhay/.gradle/caches/transforms-3/ba9cd077d4b4ac45119d3b07b848754a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/abhay/.gradle/caches/transforms-3/f90cd89540923267612175672f1ae4bf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/abhay/.gradle/caches/transforms-3/f90cd89540923267612175672f1ae4bf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/abhay/.gradle/caches/transforms-3/4aa06895fd5f438e2cb20dd569b279f0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/abhay/.gradle/caches/transforms-3/4aa06895fd5f438e2cb20dd569b279f0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/abhay/.gradle/caches/transforms-3/4caf31d78bfc0c84db0e4650e7f91d72/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/abhay/.gradle/caches/transforms-3/4caf31d78bfc0c84db0e4650e7f91d72/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abhay/.gradle/caches/transforms-3/b82f8f6796b0bc7f5d46106aae6852fc/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/abhay/.gradle/caches/transforms-3/b82f8f6796b0bc7f5d46106aae6852fc/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/abhay/.gradle/caches/transforms-3/16c424ab08aded7aa90b8f2443cb966c/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/abhay/.gradle/caches/transforms-3/16c424ab08aded7aa90b8f2443cb966c/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/abhay/.gradle/caches/transforms-3/588377fb9e5f60cfd9a974955d37a124/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/abhay/.gradle/caches/transforms-3/588377fb9e5f60cfd9a974955d37a124/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/abhay/.gradle/caches/transforms-3/860090144eb5f7b65d9bdd29e26b422f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/abhay/.gradle/caches/transforms-3/860090144eb5f7b65d9bdd29e26b422f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.CAMERA
+ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
+uses-feature#android.hardware.camera
+ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:11:19-57
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-66
+activity#com.amolg.flutterbarcodescanner.BarcodeCaptureActivity
+ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-91
+	android:name
+		ADDED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:18:19-88
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-76
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/abhay/.gradle/caches/transforms-3/860090144eb5f7b65d9bdd29e26b422f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/abhay/.gradle/caches/transforms-3/860090144eb5f7b65d9bdd29e26b422f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/767308f66319bc358027139238aa8598/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/c99600ad5ca66548ba3717b9f42e40f3/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/eecf49f51620d26e0d550a563f4fedc8/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/31b72e989aeea31580a6cbd31fe4cd00/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/8546f9a34cc92dfcb41a6016391f0d38/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/8546f9a34cc92dfcb41a6016391f0d38/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/8546f9a34cc92dfcb41a6016391f0d38/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/668ee02b1d105fe4ed1d735b032a8b6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
