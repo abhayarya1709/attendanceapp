@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_lines_media.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_media_action.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_media.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_big_media.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/3804dd8249d2b0c365194d118d0740d8/transformed/media-1.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    }
+]

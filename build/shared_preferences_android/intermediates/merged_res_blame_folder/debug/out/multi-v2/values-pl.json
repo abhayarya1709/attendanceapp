@@ -4,7 +4,7 @@
             "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/bc637356c1ac7cad5a1894a9da5d8ccb/transformed/core-1.6.0/res/values-pl/values-pl.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-pl/values-pl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/res/merged/debug/values-pl/values-pl.xml",
+            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/merged_res/debug/values-pl/values-pl.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/bc637356c1ac7cad5a1894a9da5d8ccb/transformed/core-1.6.0/res/values-pl/values-pl.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-pl/values-pl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

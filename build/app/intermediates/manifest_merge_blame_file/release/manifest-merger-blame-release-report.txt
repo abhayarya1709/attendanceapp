@@ -1,0 +1,219 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bytx.attendanceapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+11-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-60
+13-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:19-57
+14
+15    <uses-permission android:name="android.permission.FLASHLIGHT" />
+15-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-69
+15-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-66
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-81
+16-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-79
+17-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-76
+18    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/f5a53d83ac76e08058c30162d2d43234/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
+19-->[com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/f5a53d83ac76e08058c30162d2d43234/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/f5a53d83ac76e08058c30162d2d43234/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+20-->[com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/f5a53d83ac76e08058c30162d2d43234/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:22-64
+21
+22    <application
+23        android:name="io.flutter.app.FlutterMultiDexApplication"
+23-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:5:9-42
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.8.0] /Users/abhay/.gradle/caches/transforms-3/ab55c6e9d51107dd0280f52d7bcd3acf/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:6:9-43
+26        android:label="attendanceapp"
+26-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:4:9-38
+27        android:largeHeap="true"
+27-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+28        android:theme="@style/Theme.AppCompat.NoActionBar" >
+28-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-59
+29        <activity
+29-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:7:9-27:20
+30            android:name="com.bytx.attendanceapp.MainActivity"
+30-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:8:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:12:13-163
+32            android:exported="true"
+32-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:9:13-36
+33            android:hardwareAccelerated="true"
+33-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:13:13-47
+34            android:launchMode="singleTop"
+34-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:10:13-43
+35            android:theme="@style/LaunchTheme"
+35-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:11:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:14:13-55
+37
+38            <!--
+39                 Specifies an Android theme to apply to this Activity as soon as
+40                 the Android process has started. This theme is visible to the user
+41                 while the Flutter UI initializes. After that, this theme continues
+42                 to determine the Window background behind the Flutter UI.
+43            -->
+44            <meta-data
+44-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:19:13-22:17
+45                android:name="io.flutter.embedding.android.NormalTheme"
+45-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:20:15-70
+46                android:resource="@style/NormalTheme" />
+46-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:21:15-52
+47
+48            <intent-filter>
+48-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:23:13-26:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:24:17-68
+49-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:24:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:25:17-76
+51-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:25:27-74
+52            </intent-filter>
+53        </activity>
+54        <!--
+55             Don't delete the meta-data below.
+56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+57        -->
+58        <meta-data
+58-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:30:9-32:33
+59            android:name="flutterEmbedding"
+59-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:31:13-44
+60            android:value="2" />
+60-->/Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:32:13-30
+61
+62        <service
+62-->[:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+63            android:name="com.google.firebase.components.ComponentDiscoveryService"
+63-->[:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-89
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/704e9a019a6aa44ad8afb8ee46580531/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+65            android:exported="false" >
+65-->[com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/f5a53d83ac76e08058c30162d2d43234/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:18:13-37
+66            <meta-data
+66-->[:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+67-->[:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-126
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+69            <meta-data
+69-->[:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+70-->[:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-134
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+72            <meta-data
+72-->[:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+73-->[:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/f5a53d83ac76e08058c30162d2d43234/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:19:13-21:85
+76                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+76-->[com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/f5a53d83ac76e08058c30162d2d43234/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:20:17-111
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/f5a53d83ac76e08058c30162d2d43234/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:21:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/9eb79a5f9df36fb8359fcd6049b70751/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+79-->[com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/9eb79a5f9df36fb8359fcd6049b70751/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/9eb79a5f9df36fb8359fcd6049b70751/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+81        </service>
+82
+83        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+83-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-91
+83-->[:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:19-88
+84
+85        <provider
+85-->[:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+86            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+86-->[:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-82
+87            android:authorities="com.bytx.attendanceapp.flutter.image_provider"
+87-->[:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+88            android:exported="false"
+88-->[:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+89            android:grantUriPermissions="true" >
+89-->[:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+90            <meta-data
+90-->[:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:75
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->[:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+92                android:resource="@xml/flutter_image_picker_file_paths" />
+92-->[:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-72
+93        </provider>
+94
+95        <service
+95-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-15:56
+96            android:name="com.lyokone.location.FlutterLocationService"
+96-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+97            android:enabled="true"
+97-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-35
+98            android:exported="false"
+98-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+99            android:foregroundServiceType="location" />
+99-->[:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-53
+100
+101        <provider
+101-->[com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/704e9a019a6aa44ad8afb8ee46580531/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+102            android:name="com.google.firebase.provider.FirebaseInitProvider"
+102-->[com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/704e9a019a6aa44ad8afb8ee46580531/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+103            android:authorities="com.bytx.attendanceapp.firebaseinitprovider"
+103-->[com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/704e9a019a6aa44ad8afb8ee46580531/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/704e9a019a6aa44ad8afb8ee46580531/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+105            android:exported="false"
+105-->[com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/704e9a019a6aa44ad8afb8ee46580531/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+106            android:initOrder="100" />
+106-->[com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/704e9a019a6aa44ad8afb8ee46580531/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+107
+108        <activity
+108-->[com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+109-->[com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+112
+113        <meta-data
+113-->[com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/e5c485466d2262ab6894251a9efc2d23/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+114            android:name="com.google.android.gms.version"
+114-->[com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/e5c485466d2262ab6894251a9efc2d23/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->[com.google.android.gms:play-services-basement:18.1.0] /Users/abhay/.gradle/caches/transforms-3/e5c485466d2262ab6894251a9efc2d23/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+116
+117        <uses-library
+117-->[androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/295b6373e4131691db283c6bed0179ee/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+118            android:name="androidx.window.extensions"
+118-->[androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/295b6373e4131691db283c6bed0179ee/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+119            android:required="false" />
+119-->[androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/295b6373e4131691db283c6bed0179ee/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+120        <uses-library
+120-->[androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/295b6373e4131691db283c6bed0179ee/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+121            android:name="androidx.window.sidecar"
+121-->[androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/295b6373e4131691db283c6bed0179ee/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+122            android:required="false" />
+122-->[androidx.window:window:1.0.0-beta04] /Users/abhay/.gradle/caches/transforms-3/295b6373e4131691db283c6bed0179ee/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+123    </application>
+124
+125</manifest>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

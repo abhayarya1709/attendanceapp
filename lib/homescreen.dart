@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int currentIndex = 1;
 
   List<IconData> navigationIcons = [
-    FontAwesomeIcons.calendarAlt,
+    FontAwesomeIcons.calendarDays,
     FontAwesomeIcons.check,
     FontAwesomeIcons.user,
   ];

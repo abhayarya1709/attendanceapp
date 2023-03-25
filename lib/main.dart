@@ -1,6 +1,6 @@
-import 'package:attendanceapp/homescreen.dart';
 import 'package:attendanceapp/loginscreen.dart';
 import 'package:attendanceapp/model/user.dart';
+import 'package:attendanceapp/homescreen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
@@ -45,6 +45,8 @@ class AuthCheck extends StatefulWidget {
 class _AuthCheckState extends State<AuthCheck> {
   bool userAvailable = false;
   late SharedPreferences sharedPreferences;
+  
+  get authenticated => false;
 
   @override
   void initState() {
@@ -72,6 +74,6 @@ class _AuthCheckState extends State<AuthCheck> {
 
   @override
   Widget build(BuildContext context) {
-    return userAvailable ? const HomeScreen() : const LoginScreen();
+    return authenticated ? HomeScreen() : LoginScreen();
   }
 }

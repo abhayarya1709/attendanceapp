@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_res/release/values-am/values-am.xml",
+            "map": [
+                {
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/ab55c6e9d51107dd0280f52d7bcd3acf/transformed/core-1.8.0/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-am/values-am.xml",
+            "map": [
+                {
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/ab55c6e9d51107dd0280f52d7bcd3acf/transformed/core-1.8.0/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
