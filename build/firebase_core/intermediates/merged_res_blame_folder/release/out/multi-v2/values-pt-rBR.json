@@ -4,24 +4,7 @@
             "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_res/release/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/values-pt-rBR/values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "200",
-                        "endColumns": "100",
-                        "endOffsets": "296"
-                    }
-                },
-                {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/e5c485466d2262ab6894251a9efc2d23/transformed/jetified-play-services-basement-18.1.0/res/values-pt-rBR/values.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-pt-rBR/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,6 +18,23 @@
                         "startOffsets": "55",
                         "endColumns": "144",
                         "endOffsets": "195"
+                    }
+                },
+                {
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "200",
+                        "endColumns": "100",
+                        "endOffsets": "296"
                     }
                 }
             ]
@@ -43,24 +43,7 @@
             "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/values-pt-rBR/values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "200",
-                        "endColumns": "100",
-                        "endOffsets": "296"
-                    }
-                },
-                {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/e5c485466d2262ab6894251a9efc2d23/transformed/jetified-play-services-basement-18.1.0/res/values-pt-rBR/values.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-pt-rBR/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -74,6 +57,23 @@
                         "startOffsets": "55",
                         "endColumns": "144",
                         "endOffsets": "195"
+                    }
+                },
+                {
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "200",
+                        "endColumns": "100",
+                        "endOffsets": "296"
                     }
                 }
             ]

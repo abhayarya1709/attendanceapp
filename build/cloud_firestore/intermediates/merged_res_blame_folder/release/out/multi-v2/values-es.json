@@ -4,7 +4,7 @@
             "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/e5c485466d2262ab6894251a9efc2d23/transformed/jetified-play-services-basement-18.1.0/res/values-es/values.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-es/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/res/values-es/values.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/values-es/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/values-es/values-es.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-es/values-es.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,7 +60,7 @@
             "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/values-es/values-es.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/e5c485466d2262ab6894251a9efc2d23/transformed/jetified-play-services-basement-18.1.0/res/values-es/values.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-es/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -77,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/b090a7c6f5a71a7a0284f47fc664cb03/transformed/jetified-play-services-base-18.0.1/res/values-es/values.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/values-es/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,7 +94,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/values-es/values-es.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-es/values-es.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

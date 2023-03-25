@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/local_auth_android/intermediates/merged_res/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/local_auth_android/intermediates/merged_res/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/local_auth_android/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/ca43c4c7ebfdff87019a0ec70463a1ae/transformed/core-1.9.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/local_auth_android/intermediates/merged_res/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/local_auth_android/intermediates/merged_res/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/local_auth_android/intermediates/merged_res/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

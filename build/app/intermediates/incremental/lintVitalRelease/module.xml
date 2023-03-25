@@ -10,9 +10,16 @@
     javaSourceLevel="1.8"
     compileTarget="android-33">
   <lintOptions
+      disable="InvalidPackage"
       abortOnError="true"
       absolutePaths="true"
       checkReleaseBuilds="true"
-      explainIssues="true"/>
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
   <variant name="release"/>
 </lint-module>

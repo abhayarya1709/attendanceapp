@@ -4,7 +4,7 @@
             "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/52469df6dde4596b53420fa1722b08bd/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
             "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_res/release/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4b9d191dc1aab9f84c944349301f9a08/transformed/core-1.6.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/52469df6dde4596b53420fa1722b08bd/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

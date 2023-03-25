@@ -1,4 +1,4 @@
-#Sat Mar 25 14:39:42 IST 2023
+#Sat Mar 25 18:05:10 IST 2023
 base.0=/Users/abhay/IITB/Apps/attendanceapp/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

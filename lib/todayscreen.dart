@@ -4,6 +4,7 @@ import 'dart:async';
 import 'package:attendanceapp/model/user.dart';
 import 'package:attendanceapp/calendarscreen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:easy_geofencing/enums/geofence_status.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -11,9 +12,9 @@ import 'package:geocoding/geocoding.dart';
 import 'package:intl/intl.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:slide_to_act/slide_to_act.dart';
-
+import 'package:easy_geofencing/easy_geofencing.dart';
 import 'api/local_auth_api.dart';
-import 'homescreen.dart';
+import 'package:geolocator/geolocator.dart';
 
 class TodayScreen extends StatefulWidget {
   const TodayScreen({Key? key}) : super(key: key);
@@ -39,6 +40,23 @@ class _TodayScreenState extends State<TodayScreen> {
     super.initState();
     _getRecord();
     _getOfficeCode();
+    _geofencing();
+  }
+
+  void _geofencing() async {
+    bool _isInsideGeofence = false;
+    EasyGeofencing.startGeofenceService(
+        pointedLatitude: "19.0534336",
+        pointedLongitude: "72.8914152",
+        radiusMeter: "20.0",
+        eventPeriodInSeconds: 5);
+    StreamSubscription<GeofenceStatus> geofenceStatusStream =
+        EasyGeofencing.getGeofenceStream()!.listen((GeofenceStatus status) {
+      print('here');
+      print("${status}");
+      print(status.name);
+      // print('Current Latitude: ${status}');
+    });
   }
 
   void _getOfficeCode() async {
@@ -369,9 +387,9 @@ class _TodayScreenState extends State<TodayScreen> {
 
                       return Column(
                         children: [
-                          buildAvailability(context),
-                          SizedBox(height: 24),
-                          buildAuthenticate(context),
+                          // buildAvailability(context),
+                          // SizedBox(height: 24),
+                          // buildAuthenticate(context),
                           SizedBox(height: 24),
                           SlideAction(
                             text: checkIn == "--/--"
@@ -387,7 +405,8 @@ class _TodayScreenState extends State<TodayScreen> {
                             key: key,
                             onSubmit: () async {
                               print('clicked');
-                              final isAuthenticated = await LocalAuthApi.authenticate();
+                              final isAuthenticated =
+                                  await LocalAuthApi.authenticate();
 
                               if (User.lat != 0 && isAuthenticated) {
                                 _getLocation();
@@ -516,6 +535,7 @@ class _TodayScreenState extends State<TodayScreen> {
                               }
                             },
                           ),
+                          SizedBox(height: 24),
                         ],
                       );
                     },

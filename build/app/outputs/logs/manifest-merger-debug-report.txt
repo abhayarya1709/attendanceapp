@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:6:4-36:19
-MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:8:4-38:19
 MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-19:19
@@ -17,10 +17,10 @@ MERGED from [com.google.android.material:material:1.3.0] /Users/abhay/.gradle/ca
 MERGED from [com.google.android.material:material:1.3.0] /Users/abhay/.gradle/caches/transforms-3/aef83289cc7f73f679ed62bd7c8b30bb/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abhay/.gradle/caches/transforms-3/962ca08d20680de3b665bb544198878e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abhay/.gradle/caches/transforms-3/962ca08d20680de3b665bb544198878e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:15:5-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/abhay/.gradle/caches/transforms-3/5034a3d43b462acaa11286a32f71333e/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/abhay/.gradle/caches/transforms-3/5034a3d43b462acaa11286a32f71333e/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
@@ -33,8 +33,8 @@ MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gr
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gradle/caches/transforms-3/78db474fdc518090ad498e694a4a6039/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/b209024e2bd921b9661a88688804635e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/b209024e2bd921b9661a88688804635e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/abhay/.gradle/caches/transforms-3/65c44554d6da9a539a29e36a0fc336c4/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/abhay/.gradle/caches/transforms-3/65c44554d6da9a539a29e36a0fc336c4/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/aef746295dc4772707e7a9473b5cf569/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/aef746295dc4772707e7a9473b5cf569/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/abhay/.gradle/caches/transforms-3/fd310151bf7f4046a13c88066f25f27a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
@@ -51,8 +51,8 @@ MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gra
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/f7e725bb0957c69bb1c26cb0b7b26337/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/f7e725bb0957c69bb1c26cb0b7b26337/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/c09c7a6a992f7ff99430f5eff5a123f3/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/c09c7a6a992f7ff99430f5eff5a123f3/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7ee5ca01f19e94cf91a3aa9e58078aca/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7ee5ca01f19e94cf91a3aa9e58078aca/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/abhay/.gradle/caches/transforms-3/b6482b089e4220bfc4d58697fbfce0ca/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/abhay/.gradle/caches/transforms-3/b6482b089e4220bfc4d58697fbfce0ca/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/abhay/.gradle/caches/transforms-3/87e5d99062f749ca10c87acd55293f4b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
@@ -80,19 +80,20 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/abha
 	android:name
 		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-37:12
-INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-37:12
-MERGED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-37:12
-MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:geolocator_android] /Users/abhay/IITB/Apps/attendanceapp/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:local_auth_android] /Users/abhay/IITB/Apps/attendanceapp/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:geocoding_android] /Users/abhay/IITB/Apps/attendanceapp/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_keyboard_visibility] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_keyboard_visibility/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-18:12
@@ -102,15 +103,15 @@ MERGED from [com.google.android.material:material:1.3.0] /Users/abhay/.gradle/ca
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/abhay/.gradle/caches/transforms-3/962ca08d20680de3b665bb544198878e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/abhay/.gradle/caches/transforms-3/25a36597b8069e6d1e7776892847f1c0/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/abhay/.gradle/caches/transforms-3/5034a3d43b462acaa11286a32f71333e/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/abhay/.gradle/caches/transforms-3/2904b5d5b72c0b125fd1f735c6958fb8/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/abhay/.gradle/caches/transforms-3/8b85a942fabe8ea2d678ecc5ee48cf43/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gradle/caches/transforms-3/78db474fdc518090ad498e694a4a6039/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/b209024e2bd921b9661a88688804635e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/abhay/.gradle/caches/transforms-3/65c44554d6da9a539a29e36a0fc336c4/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/aef746295dc4772707e7a9473b5cf569/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/abhay/.gradle/caches/transforms-3/fd310151bf7f4046a13c88066f25f27a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/abhay/.gradle/caches/transforms-3/ddd4159aad1c1bdd3e19c238a51344f9/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
@@ -122,7 +123,7 @@ MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/abhay
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/abhay/.gradle/caches/transforms-3/3cd8cebf055a48fb25603f32c3906671/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/f7e725bb0957c69bb1c26cb0b7b26337/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/c09c7a6a992f7ff99430f5eff5a123f3/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7ee5ca01f19e94cf91a3aa9e58078aca/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/abhay/.gradle/caches/transforms-3/b6482b089e4220bfc4d58697fbfce0ca/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/abhay/.gradle/caches/transforms-3/87e5d99062f749ca10c87acd55293f4b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/9d55a204e73c5d556a774b343c888107/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
@@ -183,11 +184,11 @@ INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/Android
 		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-37:12
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -205,18 +206,34 @@ MERGED from [androidx.biometric:biometric:1.1.0] /Users/abhay/.gradle/caches/tra
 MERGED from [androidx.biometric:biometric:1.1.0] /Users/abhay/.gradle/caches/transforms-3/6fdcd279d61b18aa015a1c1c2e6f16ee/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
 	android:name
 		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:4:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:6:5-81
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:7:5-85
+	android:name
+		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml:7:22-82
 uses-sdk
 INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/main/AndroidManifest.xml
-MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /Users/abhay/IITB/Apps/attendanceapp/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] /Users/abhay/IITB/Apps/attendanceapp/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_barcode_scanner] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
@@ -225,6 +242,8 @@ MERGED from [:local_auth_android] /Users/abhay/IITB/Apps/attendanceapp/build/loc
 MERGED from [:local_auth_android] /Users/abhay/IITB/Apps/attendanceapp/build/local_auth_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:geocoding_android] /Users/abhay/IITB/Apps/attendanceapp/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:geocoding_android] /Users/abhay/IITB/Apps/attendanceapp/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_keyboard_visibility] /Users/abhay/IITB/Apps/attendanceapp/build/flutter_keyboard_visibility/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
@@ -243,10 +262,10 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/abhay/.gradle/caches/tra
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/abhay/.gradle/caches/transforms-3/25a36597b8069e6d1e7776892847f1c0/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/abhay/.gradle/caches/transforms-3/25a36597b8069e6d1e7776892847f1c0/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/abhay/.gradle/caches/transforms-3/5034a3d43b462acaa11286a32f71333e/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/abhay/.gradle/caches/transforms-3/5034a3d43b462acaa11286a32f71333e/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
@@ -259,8 +278,8 @@ MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gr
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gradle/caches/transforms-3/78db474fdc518090ad498e694a4a6039/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/b209024e2bd921b9661a88688804635e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/abhay/.gradle/caches/transforms-3/b209024e2bd921b9661a88688804635e/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/abhay/.gradle/caches/transforms-3/65c44554d6da9a539a29e36a0fc336c4/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/abhay/.gradle/caches/transforms-3/65c44554d6da9a539a29e36a0fc336c4/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/aef746295dc4772707e7a9473b5cf569/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/abhay/.gradle/caches/transforms-3/aef746295dc4772707e7a9473b5cf569/transformed/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/abhay/.gradle/caches/transforms-3/fd310151bf7f4046a13c88066f25f27a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
@@ -283,8 +302,8 @@ MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/a
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/abhay/.gradle/caches/transforms-3/3cd8cebf055a48fb25603f32c3906671/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/f7e725bb0957c69bb1c26cb0b7b26337/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/abhay/.gradle/caches/transforms-3/f7e725bb0957c69bb1c26cb0b7b26337/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/c09c7a6a992f7ff99430f5eff5a123f3/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/abhay/.gradle/caches/transforms-3/c09c7a6a992f7ff99430f5eff5a123f3/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7ee5ca01f19e94cf91a3aa9e58078aca/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/abhay/.gradle/caches/transforms-3/7ee5ca01f19e94cf91a3aa9e58078aca/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/abhay/.gradle/caches/transforms-3/b6482b089e4220bfc4d58697fbfce0ca/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/abhay/.gradle/caches/transforms-3/b6482b089e4220bfc4d58697fbfce0ca/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/abhay/.gradle/caches/transforms-3/87e5d99062f749ca10c87acd55293f4b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
@@ -397,10 +416,10 @@ INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/Android
 		INJECTED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml:6:5-66
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gradle/caches/transforms-3/78db474fdc518090ad498e694a4a6039/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:10:5-67
@@ -414,15 +433,15 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /U
 	android:name
 		ADDED from /Users/abhay/IITB/Apps/attendanceapp/android/app/src/debug/AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gradle/caches/transforms-3/78db474fdc518090ad498e694a4a6039/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:14:9-20:19
@@ -430,25 +449,25 @@ MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gr
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:18:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:36:13-32
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/abhay/.gradle/caches/transforms-3/f61e42875801042e90499297410b17ab/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+		ADDED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
 ADDED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
 		ADDED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:cloud_firestore] /Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] /Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
@@ -487,14 +506,6 @@ ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/im
 		ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
 	android:name
 		ADDED from [:image_picker_android] /Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
-	android:name
-		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-78
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
-	android:name
-		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-76
 service#com.lyokone.location.FlutterLocationService
 ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-15:56
 	android:enabled
@@ -506,9 +517,9 @@ ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/inter
 	android:name
 		ADDED from [:location] /Users/abhay/IITB/Apps/attendanceapp/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
-MERGED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
+ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/abhay/.gradle/caches/transforms-3/78db474fdc518090ad498e694a4a6039/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:9:5-79
@@ -522,19 +533,19 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /U
 MERGED from [io.grpc:grpc-android:1.50.2] /Users/abhay/.gradle/caches/transforms-3/5188e660561cad755f4b607d8f783829/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.50.2] /Users/abhay/.gradle/caches/transforms-3/5188e660561cad755f4b607d8f783829/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:22-76
-meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:22-76
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
 ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:19:13-21:85
 	android:value
 		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:21:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /Users/abhay/.gradle/caches/transforms-3/8f44ef914814adfc33631a087807d165/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/abhay/.gradle/caches/transforms-3/ac9d2aa920d05ac6a457144fa88ffe87/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/abhay/.gradle/caches/transforms-3/a8a67c3d0d26c378e8b50827dce188ab/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/abhay/.gradle/caches/transforms-3/fd310151bf7f4046a13c88066f25f27a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68

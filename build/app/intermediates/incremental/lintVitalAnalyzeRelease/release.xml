@@ -45,7 +45,7 @@
       classOutputs="/Users/abhay/IITB/Apps/attendanceapp/build/app/intermediates/javac/release/classes:/Users/abhay/IITB/Apps/attendanceapp/build/app/tmp/kotlin-classes/release:/Users/abhay/IITB/Apps/attendanceapp/build/app/kotlinToolingMetadata:/Users/abhay/IITB/Apps/attendanceapp/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.bytx.attendanceapp"
       generatedSourceFolders="/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/ap_generated_sources/release/out:/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/aidl_source_output_dir/release/out:/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/source/buildConfig/release:/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/renderscript_source_output_dir/release/out"
-      generatedResourceFolders="/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/res/rs/release:/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/res/resValues/release">
+      generatedResourceFolders="/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/res/google-services/release:/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/res/rs/release:/Users/abhay/IITB/Apps/attendanceapp/build/app/generated/res/resValues/release">
   </mainArtifact>
   <testArtifact>
   </testArtifact>

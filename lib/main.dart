@@ -75,5 +75,6 @@ class _AuthCheckState extends State<AuthCheck> {
   @override
   Widget build(BuildContext context) {
     return authenticated ? HomeScreen() : LoginScreen();
+    // return authenticated ? HomeScreen() : LoginScreen();
   }
 }
