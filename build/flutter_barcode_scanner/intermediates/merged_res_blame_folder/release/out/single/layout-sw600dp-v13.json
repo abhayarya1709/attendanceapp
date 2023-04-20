@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_res/release/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/aef83289cc7f73f679ed62bd7c8b30bb/transformed/material-1.3.0/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+        "merged": "/Users/apple/Projects/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_res/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/aef83289cc7f73f679ed62bd7c8b30bb/transformed/material-1.3.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_res/release/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/aef83289cc7f73f679ed62bd7c8b30bb/transformed/material-1.3.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "/Users/apple/Projects/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_res/release/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/aef83289cc7f73f679ed62bd7c8b30bb/transformed/material-1.3.0/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
     }
 ]

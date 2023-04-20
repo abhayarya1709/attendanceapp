@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/values-be/values-be.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/values-be/values-be.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-be/values-be.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-be/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "141",
+                        "endOffsets": "336"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2287",
-                        "endColumns": "100",
-                        "endOffsets": "2383"
+                        "startOffsets": "1059",
+                        "endColumns": "145",
+                        "endOffsets": "1200"
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/values-be/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/values-be/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,46 +38,46 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-be/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-be/values-be.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "141",
-                        "endOffsets": "336"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1059",
-                        "endColumns": "145",
-                        "endOffsets": "1200"
+                        "startOffsets": "2287",
+                        "endColumns": "100",
+                        "endOffsets": "2383"
                     }
                 }
             ]
         },
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-be/values-be.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-be/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "141",
+                        "endOffsets": "336"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2287",
-                        "endColumns": "100",
-                        "endOffsets": "2383"
+                        "startOffsets": "1059",
+                        "endColumns": "145",
+                        "endOffsets": "1200"
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/values-be/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/values-be/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,20 +94,20 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-be/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-be/values-be.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "141",
-                        "endOffsets": "336"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1059",
-                        "endColumns": "145",
-                        "endOffsets": "1200"
+                        "startOffsets": "2287",
+                        "endColumns": "100",
+                        "endOffsets": "2383"
                     }
                 }
             ]

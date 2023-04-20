@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/merged_res/release/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/shared_preferences_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/shared_preferences_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/shared_preferences_android/intermediates/merged_res/release/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

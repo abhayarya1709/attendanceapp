@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/merged_res/release/values-cs/values-cs.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/image_picker_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/values-cs/values-cs.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/image_picker_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-cs/values-cs.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/image_picker_android/intermediates/merged_res/release/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/values-cs/values-cs.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

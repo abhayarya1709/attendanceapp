@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_res/release/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/flutter_barcode_scanner/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/flutter_barcode_scanner/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/flutter_barcode_scanner/intermediates/merged_res/release/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

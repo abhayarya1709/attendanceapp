@@ -1,12 +1,12 @@
 <lint-module
     format="1"
-    dir="/Users/abhay/IITB/Apps/attendanceapp/android/app"
+    dir="/Users/apple/Projects/attendanceapp/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.0.2"
-    buildFolder="/Users/abhay/IITB/Apps/attendanceapp/build/app"
-    bootClassPath="/Users/abhay/Library/Android/sdk/platforms/android-33/android.jar:/Users/abhay/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar"
+    buildFolder="/Users/apple/Projects/attendanceapp/build/app"
+    bootClassPath="/Users/apple/Library/Android/sdk/platforms/android-33/android.jar:/Users/apple/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-33">
   <lintOptions

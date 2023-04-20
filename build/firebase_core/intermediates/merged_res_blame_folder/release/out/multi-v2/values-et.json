@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/merged_res/release/values-et/values-et.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/firebase_core/intermediates/merged_res/release/values-et/values-et.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-et/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "135",
-                        "endOffsets": "330"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "139",
-                        "endOffsets": "190"
-                    }
-                },
-                {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-et/values-et.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-et/values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,32 +18,32 @@
                         "startOffsets": "195",
                         "endColumns": "100",
                         "endOffsets": "291"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-et/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "135",
+                        "endOffsets": "330"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "139",
+                        "endOffsets": "190"
                     }
                 }
             ]
         },
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-et/values-et.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-et/values-et.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-et/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "135",
-                        "endOffsets": "330"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "139",
-                        "endOffsets": "190"
-                    }
-                },
-                {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-et/values-et.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-et/values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -74,6 +57,23 @@
                         "startOffsets": "195",
                         "endColumns": "100",
                         "endOffsets": "291"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-3/d90ae1b9566ae64d82c9b4569627b12e/transformed/jetified-play-services-basement-18.1.0/res/values-et/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "135",
+                        "endOffsets": "330"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "139",
+                        "endOffsets": "190"
                     }
                 }
             ]

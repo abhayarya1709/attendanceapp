@@ -51,8 +51,9 @@ class _AuthCheckState extends State<AuthCheck> {
   @override
   void initState() {
     super.initState();
-
-    _getCurrentUser();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _getCurrentUser();
+    });
   }
 
   void _getCurrentUser() async {

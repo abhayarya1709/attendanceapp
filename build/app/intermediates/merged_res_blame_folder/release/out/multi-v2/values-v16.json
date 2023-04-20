@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/ca43c4c7ebfdff87019a0ec70463a1ae/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/d95b0d68e7f7d4bc57bff2afad061a35/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

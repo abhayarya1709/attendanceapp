@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     }
 ]

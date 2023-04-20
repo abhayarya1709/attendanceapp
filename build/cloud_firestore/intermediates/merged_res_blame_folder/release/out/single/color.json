@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/abhay/IITB/Apps/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/abhay/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/apple/Projects/attendanceapp/build/cloud_firestore/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/798d0350175335362c9c3b1571a3451c/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
     }
 ]

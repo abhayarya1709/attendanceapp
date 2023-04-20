@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/flutter_keyboard_visibility/intermediates/incremental/mergeReleaseResources/merged.dir/values-it/values-it.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/flutter_keyboard_visibility/intermediates/merged_res/release/values-it/values-it.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-it/values-it.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-it/values-it.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/abhay/IITB/Apps/attendanceapp/build/flutter_keyboard_visibility/intermediates/merged_res/release/values-it/values-it.xml",
+            "outputFile": "/Users/apple/Projects/attendanceapp/build/flutter_keyboard_visibility/intermediates/incremental/mergeReleaseResources/merged.dir/values-it/values-it.xml",
             "map": [
                 {
-                    "source": "/Users/abhay/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-it/values-it.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/4013b490230c1e3d8e85c265224af5a5/transformed/core-1.6.0/res/values-it/values-it.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
