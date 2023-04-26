@@ -3,6 +3,6 @@
 3    package="com.jrai.flutter_keyboard_visibility" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/apple/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.0/android/src/main/AndroidManifest.xml
+5-->/Users/mujahedansari/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.0/android/src/main/AndroidManifest.xml
 6
 7</manifest>

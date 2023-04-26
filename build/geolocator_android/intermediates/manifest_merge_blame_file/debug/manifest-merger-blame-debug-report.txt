@@ -3,6 +3,6 @@
 3    package="com.baseflow.geolocator" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/apple/.pub-cache/hosted/pub.dev/geolocator_android-2.1.0/android/src/main/AndroidManifest.xml
+5-->/Users/mujahedansari/.pub-cache/hosted/pub.dev/geolocator_android-2.1.0/android/src/main/AndroidManifest.xml
 6
 7</manifest>

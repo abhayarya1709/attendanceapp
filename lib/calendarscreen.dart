@@ -1,5 +1,7 @@
 // ignore_for_file: deprecated_member_use
 
+import 'dart:convert';
+
 import 'package:attendanceapp/model/user.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
@@ -27,9 +29,10 @@ class _CalendarScreenState extends State<CalendarScreen> {
     screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(20),
+      body: Container(
+        padding: EdgeInsets.all(20.0,),
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
             Container(
               alignment: Alignment.centerLeft,
@@ -112,21 +115,34 @@ class _CalendarScreenState extends State<CalendarScreen> {
                 ),
               ],
             ),
-            SizedBox(
-              height: screenHeight / 1.45,
-              child: StreamBuilder<QuerySnapshot>(
-                stream: FirebaseFirestore.instance
-                    .collection("Employee")
-                    .doc(User.id)
-                    .collection("Record")
-                    .snapshots(),
-                builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
-                  if(snapshot.hasData) {
-                    final snap = snapshot.data!.docs;
-                    return ListView.builder(
+            StreamBuilder<QuerySnapshot>(
+              stream: FirebaseFirestore.instance
+                  .collection("Employee")
+                  .doc(User.id)
+                  .collection("Record")
+                  .snapshots(),
+              builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
+                if(snapshot.hasData) {
+                  final snap = snapshot.data!.docs;
+                  // var dateList = [];
+                  // for(int i = 0;i<snap.length;i++){
+                  //   if(snap[i].data() != null ){
+                  //     debugPrint("${(snap[i]['date'].toDate())}   skjhdishdihwisdhi");
+                  //     dateList.add(snap);
+                  //     // debugPrint();
+                  //   }
+                  // }
+                  // debugPrint("sdhjgf usag df g${dateList.length}");
+                  return Expanded(
+                    child: ListView.builder(
+                      shrinkWrap: true,
                       itemCount: snap.length,
                       itemBuilder: (context, index) {
-                        return DateFormat('MMMM').format(snap[index]['date'].toDate()) == _month ? Container(
+                        // debugPrint("${snap[index]['date'].toDate().runtimeType}");
+                        return
+                          // DateFormat('MMMM').format(snap[index]['date'].toDate()) == _month ?
+                          snap[index].exists ?
+                          Container(
                           margin: EdgeInsets.only(top: index > 0 ? 12 : 0, left: 6, right: 6),
                           height: 150,
                           decoration: const BoxDecoration(
@@ -211,14 +227,16 @@ class _CalendarScreenState extends State<CalendarScreen> {
                               ),
                             ],
                           ),
-                        ) : const SizedBox();
+                        )
+                            : const SizedBox.shrink()
+                        ;
                       },
-                    );
-                  } else {
-                    return const SizedBox();
-                  }
-                },
-              ),
+                    ),
+                  );
+                } else {
+                  return const SizedBox();
+                }
+              },
             ),
           ],
         ),

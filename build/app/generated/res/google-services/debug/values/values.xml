@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">1003258622884-9urbia6u4opjsd2evgpfra1vh20spi7e.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">1003258622884</string>
-    <string name="google_api_key" translatable="false">AIzaSyBtDiVpab6puxc0r2yJm78wrkWHnIXfgeU</string>
-    <string name="google_app_id" translatable="false">1:1003258622884:android:fe546e2b92cc10d2db4731</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBtDiVpab6puxc0r2yJm78wrkWHnIXfgeU</string>
-    <string name="google_storage_bucket" translatable="false">geolocation-51209.appspot.com</string>
-    <string name="project_id" translatable="false">geolocation-51209</string>
+    <string name="default_web_client_id" translatable="false">592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://actofit-android-90e1e.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">592242789154</string>
+    <string name="google_api_key" translatable="false">AIzaSyAonbBhlwjV_l4cdi5QcWHIgBfA1XjwbMM</string>
+    <string name="google_app_id" translatable="false">1:592242789154:android:567817ae044510efbcf37b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAonbBhlwjV_l4cdi5QcWHIgBfA1XjwbMM</string>
+    <string name="google_storage_bucket" translatable="false">actofit-android-90e1e.appspot.com</string>
+    <string name="project_id" translatable="false">actofit-android-90e1e</string>
 </resources>

@@ -1,34 +1,254 @@
 {
   "project_info": {
-    "project_number": "1003258622884",
-    "project_id": "geolocation-51209",
-    "storage_bucket": "geolocation-51209.appspot.com"
+    "project_number": "592242789154",
+    "firebase_url": "https://actofit-android-90e1e.firebaseio.com",
+    "project_id": "actofit-android-90e1e",
+    "storage_bucket": "actofit-android-90e1e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1003258622884:android:fe546e2b92cc10d2db4731",
+        "mobilesdk_app_id": "1:592242789154:android:0fcd4e2c3431a552",
         "android_client_info": {
-          "package_name": "com.bytx.attendanceapp"
+          "package_name": "com.actofit.actofitengage"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1003258622884-9urbia6u4opjsd2evgpfra1vh20spi7e.apps.googleusercontent.com",
+          "client_id": "592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBtDiVpab6puxc0r2yJm78wrkWHnIXfgeU"
+          "current_key": "AIzaSyAonbBhlwjV_l4cdi5QcWHIgBfA1XjwbMM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1003258622884-9urbia6u4opjsd2evgpfra1vh20spi7e.apps.googleusercontent.com",
+              "client_id": "592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "592242789154-1u0taeld4ahbs832e68kcgg2q4gr4vm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oxstren.actofit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592242789154:android:8e5dcaac48f08701",
+        "android_client_info": {
+          "package_name": "com.actofit.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592242789154-65ni4fupa9801p9ql8ema0atl0p6f5rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "c012019582fc747b05d3e2d8fdf593e34d54b13d"
+          }
+        },
+        {
+          "client_id": "592242789154-96kqj8geihv2pm39058noe221pbe1828.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "e20033c680ad4a510642705eef8b66431f815321"
+          }
+        },
+        {
+          "client_id": "592242789154-hsbf4pbj2mmkqg3vqp979d78pg0tbc7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "7cef199c4bbf50c83ba0967a7e57cc651a9f2059"
+          }
+        },
+        {
+          "client_id": "592242789154-isc6bha9rrg6iofjhv74844664plv65b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "2f8a7fcdfd225e1316a14b01309e51c0aec91f0b"
+          }
+        },
+        {
+          "client_id": "592242789154-lapd14qdrb6b23qu98h2qqdl055s07j8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "4655878360ff8c3a64da8c86da65e8a839493aeb"
+          }
+        },
+        {
+          "client_id": "592242789154-lb1k7hd5rnmdf2c1144k7e0saj4j00cd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "22e825dadc324ca67eb11d16437c6caf61dcb3c4"
+          }
+        },
+        {
+          "client_id": "592242789154-ljb9ufao2o2vqjd13bipoo0auc228dfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "68e36388c9f5b20953c169098c14603331c7808f"
+          }
+        },
+        {
+          "client_id": "592242789154-n5biq423ac234iv6ggp9286rg45rperm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "0d01087a6a41cdc02b4c5b3c5941c9fdece3d9d7"
+          }
+        },
+        {
+          "client_id": "592242789154-p7cuvsv29lih7v6ttchf45eotrjh5gpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "a5945e32835b31e4bfad6eedbb342787c7c1a4e8"
+          }
+        },
+        {
+          "client_id": "592242789154-pd53b3aa1k5t9stc5b44icfr5k8grpmq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "e71195b72ff41cc3be4cb9822cbeeb013362e99b"
+          }
+        },
+        {
+          "client_id": "592242789154-rbuf3i0r0sfv8588vd1i3u151jbkj7kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "075a17c3cd2eeb3e8911bfce99ecfdafff73efe1"
+          }
+        },
+        {
+          "client_id": "592242789154-sb5d37g8ofkcd5flod41ovds2o6dlqbh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "75ea601fce08c9b530aab2de5cfaf5f98c70fdd6"
+          }
+        },
+        {
+          "client_id": "592242789154-unndvqtfem8p5frle0kukaj6irl74fh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.actofit.android",
+            "certificate_hash": "b8cfcc044d34760cbedd6795c004319ae263c107"
+          }
+        },
+        {
+          "client_id": "592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAonbBhlwjV_l4cdi5QcWHIgBfA1XjwbMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592242789154-1u0taeld4ahbs832e68kcgg2q4gr4vm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oxstren.actofit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592242789154:android:567817ae044510efbcf37b",
+        "android_client_info": {
+          "package_name": "com.actofit.geoattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAonbBhlwjV_l4cdi5QcWHIgBfA1XjwbMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592242789154-1u0taeld4ahbs832e68kcgg2q4gr4vm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oxstren.actofit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592242789154:android:7f711e0433c091e3bcf37b",
+        "android_client_info": {
+          "package_name": "com.actofit.ymt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAonbBhlwjV_l4cdi5QcWHIgBfA1XjwbMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592242789154-dt3movvpr01vbhu8dk6fbb2sgt79lcfu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "592242789154-1u0taeld4ahbs832e68kcgg2q4gr4vm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oxstren.actofit"
+              }
             }
           ]
         }

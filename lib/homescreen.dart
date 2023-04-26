@@ -3,6 +3,7 @@ import 'package:attendanceapp/model/user.dart';
 import 'package:attendanceapp/profilescreen.dart';
 import 'package:attendanceapp/services/location_service.dart';
 import 'package:attendanceapp/todayscreen.dart';
+import 'package:attendanceapp/utils/prefs.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -31,47 +32,39 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    User.employeeId = Prefs.getString("employeeId");
     _startLocationService();
     getId().then((value) {
       _getCredentials();
-      _getProfilePic();
+      // _getProfilePic();
     });
   }
 
   void _getCredentials() async {
     try {
       DocumentSnapshot doc = await FirebaseFirestore.instance.collection("Employee").doc(User.id).get();
-      setState(() {
         User.canEdit = doc['canEdit'];
         User.firstName = doc['firstName'];
         User.lastName = doc['lastName'];
         User.birthDate = doc['birthDate'];
         User.address = doc['address'];
-      });
     } catch(e) {
       return;
     }
   }
 
-  void _getProfilePic() async {
-    DocumentSnapshot doc = await FirebaseFirestore.instance.collection("Employee").doc(User.id).get();
-    setState(() {
-      User.profilePicLink = doc['profilePic'];
-    });
-  }
+  // void _getProfilePic() async {
+  //   DocumentSnapshot doc = await FirebaseFirestore.instance.collection("Employee").doc(User.id).get();
+  //     User.profilePicLink = doc['profilePic'];
+  // }
 
   void _startLocationService() async {
-    LocationService().initialize();
+    // LocationService().initialize();
 
     LocationService().getLongitude().then((value) {
-      setState(() {
         User.long = value!;
-      });
-
       LocationService().getLatitude().then((value) {
-        setState(() {
           User.lat = value!;
-        });
       });
     });
   }
@@ -82,9 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
         .where('id', isEqualTo: User.employeeId)
         .get();
 
-    setState(() {
       User.id = snap.docs[0].id;
-    });
   }
 
   @override

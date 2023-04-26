@@ -3,6 +3,7 @@
 import 'dart:async';
 import 'package:attendanceapp/model/user.dart';
 import 'package:attendanceapp/calendarscreen.dart';
+import 'package:attendanceapp/utils/prefs.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_geofencing/enums/geofence_status.dart';
 import 'package:flutter/material.dart';
@@ -10,6 +11,7 @@ import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:intl/intl.dart';
+import 'package:local_auth/local_auth.dart';
 // import 'package:local_auth/local_auth.dart';
 import 'package:slide_to_act/slide_to_act.dart';
 import 'package:easy_geofencing/easy_geofencing.dart';
@@ -27,8 +29,9 @@ class TodayScreen extends StatefulWidget {
 class _TodayScreenState extends State<TodayScreen> {
   double screenHeight = 0;
   double screenWidth = 0;
-  late bool _isInsideGeofence;
-  late bool checkedIn = true;
+  bool _isInsideGeofence = false;
+  bool checkedIn = false;
+  bool checkedOut = false;
   String checkIn = "--/--";
   String checkOut = "--/--";
   String location = " ";
@@ -40,23 +43,22 @@ class _TodayScreenState extends State<TodayScreen> {
   @override
   void initState() {
     super.initState();
+    _geofencing();
+    // _getOfficeCode();
+    // _geofencing();
     WidgetsBinding.instance.addPostFrameCallback((_){
       _getRecord();
-      _getOfficeCode();
-      _geofencing();
     });
 
   }
 
-  void _getOfficeCode() async {
-    DocumentSnapshot snap = await FirebaseFirestore.instance
-        .collection("Attributes")
-        .doc("Office1")
-        .get();
-    setState(() {
-      officeCode = snap['code'];
-    });
-  }
+  // void _getOfficeCode() async {
+  //   DocumentSnapshot snap = await FirebaseFirestore.instance
+  //       .collection("Attributes")
+  //       .doc("Office1")
+  //       .get();
+  //     officeCode = snap['code'];
+  // }
 
 
 
@@ -249,99 +251,122 @@ class _TodayScreenState extends State<TodayScreen> {
           .collection("Record")
           .doc(DateFormat('dd MMMM yyyy').format(DateTime.now()))
           .get();
-
-      setState(() {
-        checkIn = snap2['checkIn'];
-        checkOut = snap2['checkOut'];
-      });
+      if(snap2.exists){
+        if(snap2['checkIn'] != "--/--"){
+          setState(() {
+            checkIn = snap2['checkIn'];
+            checkedIn = true;
+          });
+        }
+        if(snap2['checkOut'] != "--/--"){
+          setState(() {
+            checkOut = snap2['checkOut'];
+            checkedOut = true;
+          });
+        }
+      }
+      // setState(() {
+      //   checkIn = snap2['checkIn'];
+      //   checkOut = snap2['checkOut'];
+      // });
     } catch (e) {
-      setState(() {
-        checkIn = "--/--";
-        checkOut = "--/--";
-      });
+      if(checkedIn == false){
+        setState(() {
+          checkIn = "--/--";
+          checkOut = "--/--";
+        });
+      }else{
+        setState(() {
+          checkOut = "--/--";
+        });
+      }
+
     }
     print('checkIn: $checkIn');
     if (checkIn == '--/--') {
-      setState(() {
         checkedIn = false;
-      });
     }
   }
 
   void _geofencing() async {
+    EasyGeofencing.stopGeofenceService();
     EasyGeofencing.startGeofenceService(
-        pointedLatitude: "19.053511",
-        pointedLongitude: "72.891398",
-        radiusMeter: "30.0",
+        // pointedLatitude: "12.966517448425293",
+        // pointedLongitude: "77.60787963867188",
+        pointedLatitude: "19.0535226",
+        pointedLongitude: "72.8913294",
+        radiusMeter: "50.0",
         eventPeriodInSeconds: 5);
     StreamSubscription<GeofenceStatus> geofenceStatusStream =
         EasyGeofencing.getGeofenceStream()!.listen((GeofenceStatus status) {
+          // notifyListeners();
       if (status == GeofenceStatus.enter) {
         _isInsideGeofence = true;
       } else if (status == GeofenceStatus.exit) {
         _isInsideGeofence = false;
       }
       print(_isInsideGeofence);
-      if (checkedIn == true && _isInsideGeofence == false) {
-        Timer(const Duration(seconds: 3), () async {
-          _getLocation();
-
-          QuerySnapshot snap = await FirebaseFirestore.instance
-              .collection("Employee")
-              .where('id', isEqualTo: User.employeeId)
-              .get();
-
-          DocumentSnapshot snap2 = await FirebaseFirestore.instance
-              .collection("Employee")
-              .doc(snap.docs[0].id)
-              .collection("Record")
-              .doc(DateFormat('dd MMMM yyyy').format(DateTime.now()))
-              .get();
-
-          try {
-            String checkIn = snap2['checkIn'];
-            sendCheckOutData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
-            setState(() {
-              checkOut = DateFormat('hh:mm').format(DateTime.now());
-              checkedIn = false;
-            });
-
-            await FirebaseFirestore.instance
-                .collection("Employee")
-                .doc(snap.docs[0].id)
-                .collection("Record")
-                .doc(DateFormat('dd MMMM yyyy').format(DateTime.now()))
-                .update({
-              'date': Timestamp.now(),
-              'checkIn': checkIn,
-              'checkOut': DateFormat('hh:mm').format(DateTime.now()),
-              'checkInLocation': location,
-            });
-          } catch (e) {
-            setState(() {
-              checkIn = DateFormat('hh:mm').format(DateTime.now());
-              checkedIn = true;
-            });
-            sendCheckInData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
-            await FirebaseFirestore.instance
-                .collection("Employee")
-                .doc(snap.docs[0].id)
-                .collection("Record")
-                .doc(DateFormat('dd MMMM yyyy').format(DateTime.now()))
-                .set({
-              'date': Timestamp.now(),
-              'checkIn': DateFormat('hh:mm').format(DateTime.now()),
-              'checkOut': "--/--",
-              'checkOutLocation': location,
-            });
-          }
-        });
-      }
+      // if (checkedIn == true && _isInsideGeofence == false) {
+      //   Timer(const Duration(seconds: 3), () async {
+      //     _getLocation();
+      //
+      //     QuerySnapshot snap = await FirebaseFirestore.instance
+      //         .collection("Employee")
+      //         .where('id', isEqualTo: User.employeeId)
+      //         .get();
+      //
+      //     DocumentSnapshot snap2 = await FirebaseFirestore.instance
+      //         .collection("Employee")
+      //         .doc(snap.docs[0].id)
+      //         .collection("Record")
+      //         .doc(DateFormat('dd MMMM yyyy').format(DateTime.now()))
+      //         .get();
+      //
+      //     try {
+      //       String checkIn = snap2['checkIn'];
+      //       sendCheckOutData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
+      //       setState(() {
+      //         checkOut = DateFormat('hh:mm').format(DateTime.now());
+      //         checkedIn = false;
+      //       });
+      //
+      //       await FirebaseFirestore.instance
+      //           .collection("Employee")
+      //           .doc(snap.docs[0].id)
+      //           .collection("Record")
+      //           .doc(DateFormat('dd MMMM yyyy').format(DateTime.now()))
+      //           .update({
+      //         'date': Timestamp.now(),
+      //         'checkIn': checkIn,
+      //         'checkOut': DateFormat('hh:mm').format(DateTime.now()),
+      //         'checkInLocation': location,
+      //       });
+      //     } catch (e) {
+      //       setState(() {
+      //         checkIn = DateFormat('hh:mm').format(DateTime.now());
+      //         checkedIn = true;
+      //       });
+      //       sendCheckInData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
+      //       await FirebaseFirestore.instance
+      //           .collection("Employee")
+      //           .doc(snap.docs[0].id)
+      //           .collection("Record")
+      //           .doc(DateFormat('dd MMMM yyyy').format(DateTime.now()))
+      //           .set({
+      //         'date': Timestamp.now(),
+      //         'checkIn': DateFormat('hh:mm').format(DateTime.now()),
+      //         'checkOut': "--/--",
+      //         'checkOutLocation': location,
+      //       });
+      //     }
+      //   });
+      // }
     });
   }
 
   @override
   Widget build(BuildContext context) {
+
     screenHeight = MediaQuery.of(context).size.height;
     screenWidth = MediaQuery.of(context).size.width;
 
@@ -488,8 +513,8 @@ class _TodayScreenState extends State<TodayScreen> {
               );
             },
           ),
-          checkOut == "--/--"
-              ?
+          // checkOut == "--/--"
+          //     ?
           Container(
                   margin: const EdgeInsets.only(top: 24, bottom: 12),
                   child: Builder(
@@ -503,7 +528,7 @@ class _TodayScreenState extends State<TodayScreen> {
                           // buildAuthenticate(context),
                           SizedBox(height: 24),
                           SlideAction(
-                            text: checkIn == "--/--"
+                            text: !checkedIn
                                 ? "Slide to Check In"
                                 : "Slide to Check Out",
                             textStyle: TextStyle(
@@ -515,42 +540,111 @@ class _TodayScreenState extends State<TodayScreen> {
                             innerColor: primary,
                             key: key,
                             onSubmit: () async {
-                              // final isAuthenticated =
-                              //     await LocalAuthApi.authenticate();
-                              final bool isAuthenticated = true;
-                              if (User.lat != 0 && isAuthenticated) {
-                                if (!_isInsideGeofence) {
-                                  ScaffoldMessenger.of(context).showSnackBar(
-                                    SnackBar(
-                                      content:
-                                          Text("You are not inside the office"),
-                                      backgroundColor: Colors.red,
-                                    ),
-                                  );
-                                  key.currentState!.reset();
-                                } else {
-                                  _getLocation();
-                                  QuerySnapshot snap = await FirebaseFirestore
-                                      .instance
-                                      .collection("Employee")
-                                      .where('id', isEqualTo: User.employeeId)
-                                      .get();
-
-                                  DocumentSnapshot snap2 =
-                                      await FirebaseFirestore.instance
+                              final isAuthenticated =
+                                  await LocalAuthApi.authenticate();
+                              if(isAuthenticated && _isInsideGeofence){
+                                if(checkedIn == false){
+                                      _getLocation();
+                                      QuerySnapshot snap = await FirebaseFirestore
+                                          .instance
                                           .collection("Employee")
-                                          .doc(snap.docs[0].id)
-                                          .collection("Record")
-                                          .doc(DateFormat('dd MMMM yyyy')
-                                              .format(DateTime.now()))
+                                          .where('id', isEqualTo: User.employeeId)
                                           .get();
 
-                                  try {
+                                      DocumentSnapshot snap2 =
+                                          await FirebaseFirestore.instance
+                                              .collection("Employee")
+                                              .doc(snap.docs[0].id)
+                                              .collection("Record")
+                                              .doc(DateFormat('dd MMMM yyyy')
+                                                  .format(DateTime.now()))
+                                              .get();
+                                        sendCheckInData("0909112221", "QRGEM00001",DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
+                                        setState(() {
+                                          checkIn = DateFormat('hh:mm')
+                                              .format(DateTime.now());
+                                          checkedIn = true;
+                                        });
+
+                                        await FirebaseFirestore.instance
+                                            .collection("Employee")
+                                            .doc(snap.docs[0].id)
+                                            .collection("Record")
+                                            .doc(DateFormat('dd MMMM yyyy')
+                                                .format(DateTime.now()))
+                                            .set({
+                                          'date': Timestamp.now(),
+                                          'checkIn': DateFormat('hh:mm')
+                                              .format(DateTime.now()),
+                                          'checkOut': "--/--",
+                                          'checkInLocation': location,
+                                        });
+                                      }else{
+                                      _getLocation();
+                                      QuerySnapshot snap = await FirebaseFirestore
+                                          .instance
+                                          .collection("Employee")
+                                          .where('id', isEqualTo: User.employeeId)
+                                          .get();
+
+                                      DocumentSnapshot snap2 =
+                                          await FirebaseFirestore.instance
+                                              .collection("Employee")
+                                              .doc(snap.docs[0].id)
+                                              .collection("Record")
+                                              .doc(DateFormat('dd MMMM yyyy')
+                                                  .format(DateTime.now()))
+                                              .get();
+                                        String checkIn = snap2['checkIn'];
+                                        sendCheckOutData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
+                                        setState(() {
+                                          checkOut = DateFormat('hh:mm')
+                                              .format(DateTime.now());
+                                          checkedOut = true;
+                                          checkedIn = false;
+                                        });
+
+                                        await FirebaseFirestore.instance
+                                            .collection("Employee")
+                                            .doc(snap.docs[0].id)
+                                            .collection("Record")
+                                            .doc(DateFormat('dd MMMM yyyy')
+                                                .format(DateTime.now()))
+                                            .update({
+                                          'date': Timestamp.now(),
+                                          'checkIn': checkIn,
+                                          'checkOut': DateFormat('hh:mm')
+                                              .format(DateTime.now()),
+                                          'checkOutLocation': location,
+                                        });
+                                }
+
+                                      // key.currentState!.reset();
+                                }
+                              else if(isAuthenticated && !_isInsideGeofence){
+                                if(checkedIn){
+                                  {
+                                    _getLocation();
+                                    QuerySnapshot snap = await FirebaseFirestore
+                                        .instance
+                                        .collection("Employee")
+                                        .where('id', isEqualTo: User.employeeId)
+                                        .get();
+
+                                    DocumentSnapshot snap2 =
+                                    await FirebaseFirestore.instance
+                                        .collection("Employee")
+                                        .doc(snap.docs[0].id)
+                                        .collection("Record")
+                                        .doc(DateFormat('dd MMMM yyyy')
+                                        .format(DateTime.now()))
+                                        .get();
                                     String checkIn = snap2['checkIn'];
                                     sendCheckOutData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
                                     setState(() {
                                       checkOut = DateFormat('hh:mm')
                                           .format(DateTime.now());
+                                      checkedOut = true;
                                       checkedIn = false;
                                     });
 
@@ -559,105 +653,159 @@ class _TodayScreenState extends State<TodayScreen> {
                                         .doc(snap.docs[0].id)
                                         .collection("Record")
                                         .doc(DateFormat('dd MMMM yyyy')
-                                            .format(DateTime.now()))
+                                        .format(DateTime.now()))
                                         .update({
                                       'date': Timestamp.now(),
                                       'checkIn': checkIn,
                                       'checkOut': DateFormat('hh:mm')
                                           .format(DateTime.now()),
-                                      'checkInLocation': location,
-                                    });
-                                  } catch (e) {
-                                    sendCheckInData("0909112221", "QRGEM00001",DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
-                                    setState(() {
-                                      checkIn = DateFormat('hh:mm')
-                                          .format(DateTime.now());
-                                      checkedIn = true;
-                                    });
-
-                                    await FirebaseFirestore.instance
-                                        .collection("Employee")
-                                        .doc(snap.docs[0].id)
-                                        .collection("Record")
-                                        .doc(DateFormat('dd MMMM yyyy')
-                                            .format(DateTime.now()))
-                                        .set({
-                                      'date': Timestamp.now(),
-                                      'checkIn': DateFormat('hh:mm')
-                                          .format(DateTime.now()),
-                                      'checkOut': "--/--",
                                       'checkOutLocation': location,
                                     });
                                   }
-
-                                  key.currentState!.reset();
                                 }
-                              } else {
-                                Timer(const Duration(seconds: 3), () async {
-                                  _getLocation();
-                                  sendCheckOutData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
-                                  QuerySnapshot snap = await FirebaseFirestore
-                                      .instance
-                                      .collection("Employee")
-                                      .where('id', isEqualTo: User.employeeId)
-                                      .get();
-
-                                  DocumentSnapshot snap2 =
-                                      await FirebaseFirestore.instance
-                                          .collection("Employee")
-                                          .doc(snap.docs[0].id)
-                                          .collection("Record")
-                                          .doc(DateFormat('dd MMMM yyyy')
-                                              .format(DateTime.now()))
-                                          .get();
-
-                                  try {
-                                    String checkIn = snap2['checkIn'];
-
-                                    setState(() {
-                                      checkOut = DateFormat('hh:mm')
-                                          .format(DateTime.now());
-                                      checkedIn = false;
-                                    });
-
-                                    await FirebaseFirestore.instance
-                                        .collection("Employee")
-                                        .doc(snap.docs[0].id)
-                                        .collection("Record")
-                                        .doc(DateFormat('dd MMMM yyyy')
-                                            .format(DateTime.now()))
-                                        .update({
-                                      'date': Timestamp.now(),
-                                      'checkIn': checkIn,
-                                      'checkOut': DateFormat('hh:mm')
-                                          .format(DateTime.now()),
-                                      'checkInLocation': location,
-                                    });
-                                  } catch (e) {
-                                    setState(() {
-                                      checkIn = DateFormat('hh:mm')
-                                          .format(DateTime.now());
-                                      checkedIn = true;
-                                    });
-                                    sendCheckInData("0909112221", "QRGEM00001",DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
-                                    await FirebaseFirestore.instance
-                                        .collection("Employee")
-                                        .doc(snap.docs[0].id)
-                                        .collection("Record")
-                                        .doc(DateFormat('dd MMMM yyyy')
-                                            .format(DateTime.now()))
-                                        .set({
-                                      'date': Timestamp.now(),
-                                      'checkIn': DateFormat('hh:mm')
-                                          .format(DateTime.now()),
-                                      'checkOut': "--/--",
-                                      'checkOutLocation': location,
-                                    });
-                                  }
-
-                                  key.currentState!.reset();
-                                });
                               }
+                              // final bool isAuthenticated = true;
+                              // if (User.lat != 0 && isAuthenticated) {
+                              //   if (!_isInsideGeofence) {
+                              //     ScaffoldMessenger.of(context).showSnackBar(
+                              //       SnackBar(
+                              //         content:
+                              //             Text("You are not inside the Gym"),
+                              //         backgroundColor: Colors.red,
+                              //       ),
+                              //     );
+                              //     key.currentState!.reset();
+                              //   } else {
+                              //     _getLocation();
+                              //     QuerySnapshot snap = await FirebaseFirestore
+                              //         .instance
+                              //         .collection("Employee")
+                              //         .where('id', isEqualTo: User.employeeId)
+                              //         .get();
+                              //
+                              //     DocumentSnapshot snap2 =
+                              //         await FirebaseFirestore.instance
+                              //             .collection("Employee")
+                              //             .doc(snap.docs[0].id)
+                              //             .collection("Record")
+                              //             .doc(DateFormat('dd MMMM yyyy')
+                              //                 .format(DateTime.now()))
+                              //             .get();
+                              //
+                              //     try {
+                              //       String checkIn = snap2['checkIn'];
+                              //       sendCheckOutData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
+                              //       setState(() {
+                              //         checkOut = DateFormat('hh:mm')
+                              //             .format(DateTime.now());
+                              //         checkedIn = false;
+                              //       });
+                              //
+                              //       await FirebaseFirestore.instance
+                              //           .collection("Employee")
+                              //           .doc(snap.docs[0].id)
+                              //           .collection("Record")
+                              //           .doc(DateFormat('dd MMMM yyyy')
+                              //               .format(DateTime.now()))
+                              //           .update({
+                              //         'date': Timestamp.now(),
+                              //         'checkIn': checkIn,
+                              //         'checkOut': DateFormat('hh:mm')
+                              //             .format(DateTime.now()),
+                              //         'checkInLocation': location,
+                              //       });
+                              //     } catch (e) {
+                              //       sendCheckInData("0909112221", "QRGEM00001",DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
+                              //       setState(() {
+                              //         checkIn = DateFormat('hh:mm')
+                              //             .format(DateTime.now());
+                              //         checkedIn = true;
+                              //       });
+                              //
+                              //       await FirebaseFirestore.instance
+                              //           .collection("Employee")
+                              //           .doc(snap.docs[0].id)
+                              //           .collection("Record")
+                              //           .doc(DateFormat('dd MMMM yyyy')
+                              //               .format(DateTime.now()))
+                              //           .set({
+                              //         'date': Timestamp.now(),
+                              //         'checkIn': DateFormat('hh:mm')
+                              //             .format(DateTime.now()),
+                              //         'checkOut': "--/--",
+                              //         'checkOutLocation': location,
+                              //       });
+                              //     }
+                              //
+                              //     key.currentState!.reset();
+                              //   }
+                              // }
+                              // else {
+                              //   Timer(const Duration(seconds: 3), () async {
+                              //     _getLocation();
+                              //     sendCheckOutData("0909112221", "QRGEM00001", DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
+                              //     QuerySnapshot snap = await FirebaseFirestore
+                              //         .instance
+                              //         .collection("Employee")
+                              //         .where('id', isEqualTo: User.employeeId)
+                              //         .get();
+                              //
+                              //     DocumentSnapshot snap2 =
+                              //         await FirebaseFirestore.instance
+                              //             .collection("Employee")
+                              //             .doc(snap.docs[0].id)
+                              //             .collection("Record")
+                              //             .doc(DateFormat('dd MMMM yyyy')
+                              //                 .format(DateTime.now()))
+                              //             .get();
+                              //
+                              //     try {
+                              //       String checkIn = snap2['checkIn'];
+                              //
+                              //       setState(() {
+                              //         checkOut = DateFormat('hh:mm')
+                              //             .format(DateTime.now());
+                              //         checkedIn = false;
+                              //       });
+                              //
+                              //       await FirebaseFirestore.instance
+                              //           .collection("Employee")
+                              //           .doc(snap.docs[0].id)
+                              //           .collection("Record")
+                              //           .doc(DateFormat('dd MMMM yyyy')
+                              //               .format(DateTime.now()))
+                              //           .update({
+                              //         'date': Timestamp.now(),
+                              //         'checkIn': checkIn,
+                              //         'checkOut': DateFormat('hh:mm')
+                              //             .format(DateTime.now()),
+                              //         'checkInLocation': location,
+                              //       });
+                              //     } catch (e) {
+                              //       setState(() {
+                              //         checkIn = DateFormat('hh:mm')
+                              //             .format(DateTime.now());
+                              //         checkedIn = true;
+                              //       });
+                              //       sendCheckInData("0909112221", "QRGEM00001",DateFormat('yyyy-MM-dd hh:mm:ss').format(DateTime.now()));
+                              //       await FirebaseFirestore.instance
+                              //           .collection("Employee")
+                              //           .doc(snap.docs[0].id)
+                              //           .collection("Record")
+                              //           .doc(DateFormat('dd MMMM yyyy')
+                              //               .format(DateTime.now()))
+                              //           .set({
+                              //         'date': Timestamp.now(),
+                              //         'checkIn': DateFormat('hh:mm')
+                              //             .format(DateTime.now()),
+                              //         'checkOut': "--/--",
+                              //         'checkOutLocation': location,
+                              //       });
+                              //     }
+                              //
+                              //     key.currentState!.reset();
+                              //   });
+                              // }
                             },
                           ),
                           SizedBox(height: 24),
@@ -665,18 +813,18 @@ class _TodayScreenState extends State<TodayScreen> {
                       );
                     },
                   ),
-                )
-              : Container(
-                  margin: const EdgeInsets.only(top: 32, bottom: 32),
-                  child: Text(
-                    "You have completed this day!",
-                    style: TextStyle(
-                      fontFamily: "NexaRegular",
-                      fontSize: screenWidth / 20,
-                      color: Colors.black54,
-                    ),
-                  ),
                 ),
+              // : Container(
+              //     margin: const EdgeInsets.only(top: 32, bottom: 32),
+              //     child: Text(
+              //       "You have completed this day!",
+              //       style: TextStyle(
+              //         fontFamily: "NexaRegular",
+              //         fontSize: screenWidth / 20,
+              //         color: Colors.black54,
+              //       ),
+              //     ),
+              //   ),
           location != " "
               ? Text(
                   "Location: " + location,
@@ -743,31 +891,31 @@ class _TodayScreenState extends State<TodayScreen> {
     ));
   }
 
-  // Widget buildAvailability(BuildContext context) => buildButton(
-  //       text: 'Check Availability',
-  //       icon: Icons.event_available,
-  //       onClicked: () async {
-  //         final isAvailable = await LocalAuthApi.hasBiometrics();
-  //         final biometrics = await LocalAuthApi.getBiometrics();
-  //
-  //         final hasFingerprint = biometrics.contains(BiometricType.fingerprint);
-  //
-  //         showDialog(
-  //           context: context,
-  //           builder: (context) => AlertDialog(
-  //             title: Text('Availability'),
-  //             content: Column(
-  //               crossAxisAlignment: CrossAxisAlignment.start,
-  //               mainAxisSize: MainAxisSize.min,
-  //               children: [
-  //                 buildText('Biometrics', isAvailable),
-  //                 buildText('Fingerprint', hasFingerprint),
-  //               ],
-  //             ),
-  //           ),
-  //         );
-  //       },
-  //     );
+  Widget buildAvailability(BuildContext context) => buildButton(
+        text: 'Check Availability',
+        icon: Icons.event_available,
+        onClicked: () async {
+          final isAvailable = await LocalAuthApi.hasBiometrics();
+          final biometrics = await LocalAuthApi.getBiometrics();
+
+          final hasFingerprint = biometrics.contains(BiometricType.fingerprint);
+
+          showDialog(
+            context: context,
+            builder: (context) => AlertDialog(
+              title: Text('Availability'),
+              content: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  buildText('Biometrics', isAvailable),
+                  buildText('Fingerprint', hasFingerprint),
+                ],
+              ),
+            ),
+          );
+        },
+      );
 
   Widget buildText(String text, bool checked) => Container(
         margin: EdgeInsets.symmetric(vertical: 8),
@@ -782,30 +930,30 @@ class _TodayScreenState extends State<TodayScreen> {
         ),
       );
 
-  // Widget buildAuthenticate(BuildContext context) => buildButton(
-  //       text: 'Authenticate',
-  //       icon: Icons.lock_open,
-  //       onClicked: () async {
-  //         print('clicked');
-  //         final isAuthenticated = await LocalAuthApi.authenticate();
-  //         print('working: $isAuthenticated');
-  //
-  //         if (isAuthenticated == true) {
-  //           print('working: should work');
-  //           Navigator.push(
-  //             context,
-  //             MaterialPageRoute(builder: (context) => CalendarScreen()),
-  //           );
-  //         } else
-  //           () {
-  //             print('working: should work2');
-  //             Navigator.push(
-  //               context,
-  //               MaterialPageRoute(builder: (context) => CalendarScreen()),
-  //             );
-  //           };
-  //       },
-  //     );
+  Widget buildAuthenticate(BuildContext context) => buildButton(
+        text: 'Authenticate',
+        icon: Icons.lock_open,
+        onClicked: () async {
+          print('clicked');
+          final isAuthenticated = await LocalAuthApi.authenticate();
+          print('working: $isAuthenticated');
+
+          if (isAuthenticated == true) {
+            print('working: should work');
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => CalendarScreen()),
+            );
+          } else
+            () {
+              print('working: should work2');
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => CalendarScreen()),
+              );
+            };
+        },
+      );
 
   Widget buildButton({
     required String text,

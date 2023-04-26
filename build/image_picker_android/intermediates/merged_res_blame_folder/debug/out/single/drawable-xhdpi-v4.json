@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Users/apple/Projects/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
-        "source": "/Users/apple/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+        "merged": "/Users/mujahedansari/Downloads/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/mujahedansari/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
-        "merged": "/Users/apple/Projects/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
-        "source": "/Users/apple/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/Users/mujahedansari/Downloads/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/mujahedansari/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/apple/Projects/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
-        "source": "/Users/apple/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "/Users/mujahedansari/Downloads/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/mujahedansari/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/Users/apple/Projects/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
-        "source": "/Users/apple/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+        "merged": "/Users/mujahedansari/Downloads/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/mujahedansari/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/Users/apple/Projects/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
-        "source": "/Users/apple/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "/Users/mujahedansari/Downloads/attendanceapp/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/mujahedansari/.gradle/caches/transforms-3/f2fa8c6502a3a6746243b6059f9af789/transformed/core-1.8.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     }
 ]
