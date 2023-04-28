@@ -174,14 +174,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: Text('Not have an account? Register', style: TextStyle(color: Colors.black, fontSize: 16)),
                       onPressed: () {
                         if(mounted){
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => OfficeScreen()),
-                        );
                         // Navigator.push(
                         //   context,
-                        //   MaterialPageRoute(builder: (context) => RegisterScreen()),
+                        //   MaterialPageRoute(builder: (context) => OfficeScreen()),
                         // );
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => RegisterScreen()),
+                        );
                         }
                       },
                     ),
