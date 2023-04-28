@@ -1,4 +1,6 @@
 import 'package:attendanceapp/homescreen.dart';
+import 'package:attendanceapp/officescreen.dart';
+import 'package:attendanceapp/registerscreen.dart';
 import 'package:attendanceapp/services/location_service.dart';
 import 'package:attendanceapp/utils/prefs.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -32,7 +34,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final bool isKeyboardVisible = KeyboardVisibilityProvider.isKeyboardVisible(context);
+    bool isKeyboardVisible = false;
+    // final bool isKeyboardVisible = KeyboardVisibilityProvider.isKeyboardVisible(context);
     screenHeight = MediaQuery.of(context).size.height;
     screenWidth = MediaQuery.of(context).size.width;
     if(Prefs.getBool("loggedIn")){
@@ -108,9 +111,13 @@ class _LoginScreenState extends State<LoginScreen> {
                             Prefs.setBool('loggedIn', true);
                             Prefs.setString('employeeId', id)
                                 .then((_) {
-                              Navigator.pushReplacement(context,
-                                  MaterialPageRoute(builder: (context) => HomeScreen())
-                              );
+                              // Navigator.pushReplacement(context,
+                              //     MaterialPageRoute(builder: (context) => HomeScreen())
+                              // );
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => OfficeScreen()),
+                                  );
                             });
                           } else {
                             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
@@ -151,6 +158,32 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                         ),
                       ),
+                    ),
+                  ),
+                  Center(
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white,
+                        textStyle: TextStyle(fontSize: 20), // Text style
+                        padding: EdgeInsets.symmetric(vertical: 12),
+                        elevation: 0, // Button padding
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10), // Button border radius
+                        ),
+                      ),
+                      child: Text('Not have an account? Register', style: TextStyle(color: Colors.black, fontSize: 16)),
+                      onPressed: () {
+                        if(mounted){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => OfficeScreen()),
+                        );
+                        // Navigator.push(
+                        //   context,
+                        //   MaterialPageRoute(builder: (context) => RegisterScreen()),
+                        // );
+                        }
+                      },
                     ),
                   )
                 ],

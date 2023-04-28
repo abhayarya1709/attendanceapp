@@ -291,11 +291,18 @@ class _TodayScreenState extends State<TodayScreen> {
   void _geofencing() async {
     EasyGeofencing.stopGeofenceService();
     EasyGeofencing.startGeofenceService(
+        // // Tester Office lat long
         // pointedLatitude: "12.966517448425293",
         // pointedLongitude: "77.60787963867188",
-        pointedLatitude: "19.0535226",
-        pointedLongitude: "72.8913294",
-        radiusMeter: "50.0",
+        // // actofit lat long
+        // pointedLatitude: "19.0535226",
+        // pointedLongitude: "72.8913294",
+        // IITB lat long
+        pointedLatitude: Prefs.getString('latitude'),
+        pointedLongitude: Prefs.getString('longitude'), 
+        // pointedLatitude: "19.1354152",
+        // pointedLongitude: "72.9085383", 
+        radiusMeter: "20.0",
         eventPeriodInSeconds: 5);
     StreamSubscription<GeofenceStatus> geofenceStatusStream =
         EasyGeofencing.getGeofenceStream()!.listen((GeofenceStatus status) {

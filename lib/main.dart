@@ -1,6 +1,8 @@
 import 'package:attendanceapp/loginscreen.dart';
 import 'package:attendanceapp/model/user.dart';
 import 'package:attendanceapp/homescreen.dart';
+import 'package:attendanceapp/officescreen.dart';
+import 'package:attendanceapp/registerscreen.dart';
 import 'package:attendanceapp/utils/prefs.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -29,8 +31,9 @@ class MyApp extends StatelessWidget {
       ),
       home: const KeyboardVisibilityProvider(
         // child: AuthCheck(),
+        // child: OfficeSelectionPage(),
         child: LoginScreen(),
-
+        // child: RegisterScreen(),
       ),
       localizationsDelegates: const [
         MonthYearPickerLocalizations.delegate,
