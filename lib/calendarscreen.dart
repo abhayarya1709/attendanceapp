@@ -1,7 +1,5 @@
 // ignore_for_file: deprecated_member_use
 
-import 'dart:convert';
-
 import 'package:attendanceapp/model/user.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
@@ -78,7 +76,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                               ),
                               textButtonTheme: TextButtonThemeData(
                                 style: TextButton.styleFrom(
-                                  primary: primary,
+                                  foregroundColor: primary,
                                 ),
                               ),
                               textTheme: const TextTheme(
@@ -140,8 +138,8 @@ class _CalendarScreenState extends State<CalendarScreen> {
                       itemBuilder: (context, index) {
                         // debugPrint("${snap[index]['date'].toDate().runtimeType}");
                         return
-                          // DateFormat('MMMM').format(snap[index]['date'].toDate()) == _month ?
-                          snap[index].exists ?
+                          DateFormat('MMMM').format(snap[index]['date'].toDate()) == _month ?
+                          // snap[index].exists ?
                           Container(
                           margin: EdgeInsets.only(top: index > 0 ? 12 : 0, left: 6, right: 6),
                           height: 150,

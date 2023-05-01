@@ -1,6 +1,8 @@
 // ignore_for_file: deprecated_member_use
 
+import 'package:attendanceapp/loginscreen.dart';
 import 'package:attendanceapp/model/user.dart';
+import 'package:attendanceapp/utils/prefs.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
@@ -197,12 +199,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
               ),
             ) : const SizedBox(),
+            ElevatedButton(onPressed: onPressed, child: Text('Logout'))
           ],
         ),
       ),
     );
   }
-
+  onPressed(){
+    Prefs.setBool('loggedIn', false);
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+          builder: (context) => LoginScreen()),
+    );
+  }
   Widget field(String title, String text) {
     return Column(
       children: [

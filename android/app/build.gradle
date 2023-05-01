@@ -54,13 +54,26 @@ android {
         versionName flutterVersionName
         multiDexEnabled true
     }
+    signingConfigs {
+
+        
+    release {
+        keyAlias 'key'
+        keyPassword 'actofit'
+        storeFile file('keystore.jks')
+        storePassword 'actofit'
+    }
 
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
+        // release {
+        //     signingConfig signingConfigs.release
+        // }
+    }
     }
 }
 

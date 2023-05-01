@@ -7,6 +7,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:intl_phone_field/intl_phone_field.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -21,6 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   double screenHeight = 0;
   double screenWidth = 0;
+  String _phoneNumber = '';
 
   Color primary = const Color(0xffeef444c);
   @override
@@ -83,8 +85,50 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  fieldTitle("Employee ID"),
-                  customField("Enter your employee id", idController, false),
+                  // fieldTitle("Contact Number"),
+                  // Container(
+                  //   width: screenWidth,
+                  //   margin: EdgeInsets.only(bottom: 12),
+                  //   decoration: BoxDecoration(
+                  //     color: Colors.white,
+                  //     borderRadius: BorderRadius.all(Radius.circular(12)),
+                  //     boxShadow: [
+                  //       BoxShadow(
+                  //         color: Colors.black26,
+                  //         blurRadius: 10,
+                  //         offset: Offset(2, 2),
+                  //       ),
+                  //     ],
+                  //   ),
+                  //   child: Row(
+                  //     children: [
+                  //       Expanded(
+                  //         child: Padding(
+                  //           padding: EdgeInsets.only(right: screenWidth / 12, bottom: 5),
+                  //           child: IntlPhoneField(
+                  //             decoration: InputDecoration(
+                  //               contentPadding: EdgeInsets.symmetric(
+                  //                 vertical: screenHeight / 35,
+                  //               ),
+                  //               labelText: 'Phone number',
+                  //               border: InputBorder.none,
+                  //             ),
+                  //             initialCountryCode: 'US', // You can set the initial country code here
+                  //             onChanged: (phone) {
+                  //               setState(() {
+                  //                 _phoneNumber = phone.completeNumber;
+                  //                 String formattedPhoneNumber = _phoneNumber.replaceAll(RegExp(r'^\+?\d+\s?'), "");
+                  //                 idController.text = formattedPhoneNumber;
+                  //               });
+                  //             },
+                  //           ),
+                  //         ),
+                  //       )
+                  //     ],
+                  //   ),
+                  // ),
+                  fieldTitle("Contact no. (Without country code)"),
+                  customField("Enter your Contact number", idController, false),
                   fieldTitle("Password"),
                   customField("Enter your password", passController, true),
                   GestureDetector(
